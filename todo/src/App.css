@@ -1,0 +1,82 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.container {
+  margin: auto;
+  width: 60%;
+}
+.input-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.input-group * {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+}
+.input-group input {
+  width: 60%;
+  border-bottom: 2px solid blue;
+}
+.input-group button {
+  width: 70px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.task-list {
+  margin-top: 20px;
+}
+.task {
+  text-transform: capitalize;
+  background-color: rgb(230, 230, 230);
+  color: rgb(97, 97, 97);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  margin: 5px auto;
+}
+.task button {
+  margin-left: 20px;
+  font-weight: 500;
+  border: none;
+  background-color: inherit;
+}
+.btn {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
+select {
+  background-color: rgb(196, 196, 196);
+  margin: 0 !important;
+  border-radius: 5px;
+  width: fit-content !important;
+}
+.edit-todo {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.692);
+  top: 0;
+  left: 0;
+}
+.model {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  color: white;
+}
+.edit-todo .input-group {
+  display: block;
+  text-align: left;
+}
